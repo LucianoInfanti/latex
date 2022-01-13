@@ -1,18 +1,14 @@
 import './CategoryItem.css';
 import 'katex/dist/katex.min.css';
 import TeX from '@matejmazur/react-katex';
+import ChevronIcon from '/Users/lucianoinfanti/latex/src/images/chevron-down.svg';
 
-// FORMA BASE DA LISTA
 export default function CategoryItem ({ item }) {
-    return(
-    <>
-        <div className="mainContentWrapper">
-        <TeX className="TeX, categoryIcon" block>{ item.tex }</TeX>
-        <p>{ item.name }</p> 
-      </div>
-    </>
-    )
+  return(
+    <div className="mainContentWrapper">
+      <TeX className="TeX, categoryIcon" block>{ item.tex }</TeX>
+      <p>{ item.name }</p> 
+      <img src={ChevronIcon}/>
+    </div>  
+  )
 };
-
-// FORMA CORRETA DE ACESSAR OS ITENS DENTRO DO ARRAY.
-// <p>{categoryDetail.sections[0].categorySectionItem[0].tex}</p> 
