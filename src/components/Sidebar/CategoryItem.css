@@ -1,0 +1,52 @@
+.categoryCardWrapper {
+    display: flex;
+    border-bottom: 1px solid #202023;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    
+}
+    
+.categoryCardWrapper img{
+    opacity: 0;
+}
+
+.categoryIcon {
+    color: #7D7D82;
+    font-size: 24px;
+    width: 32px;
+}
+
+.mainContentWrapper > p {
+    display: flex;
+    font-size: 16px;
+    color: #808181;
+    margin-left: 32px;
+}
+
+.mainContentWrapper{
+    display: flex;
+    align-items: center;
+}
+
+.categoryCardWrapper:hover {
+    cursor: pointer;
+/*    border-bottom: 1px solid #454546;*/
+    transition: all 0.2s ease-out;
+}
+
+.categoryCardWrapper:hover .categoryIcon{
+    opacity: 1;
+    color: white;
+}
+
+.categoryCardWrapper:hover img{
+    opacity: 1;
+}
+
+.categoryCardWrapper:hover p{
+    color: white;
+}

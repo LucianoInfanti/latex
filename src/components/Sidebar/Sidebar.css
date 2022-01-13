@@ -1,0 +1,36 @@
+
+
+.panelWrapper {
+    background-color: var(--light-gray);
+    overflow: scroll;
+    position:absolute;
+    height:100%;
+    width: 40%;
+
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+}
+
+.panelWrapper::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+  }
+
+  .panelWrapper h2{
+      color: var(--white);
+      font-size: 48px;
+      line-height: 130%;
+      margin-left: 10%;
+      margin-top: 104px;
+  }
+
+  p {
+      color: white; 
+      font-size: 16px;
+  }
+
+  button {
+      border: none; 
+      width: 100%;
+      background-color: var(--light-gray);
+  }
+  

@@ -1,13 +1,48 @@
+:root {
+  --light-gray: #161618;
+  --darkest-gray: #0A0A0A;
+  --divider-gray: #202023;
+  --lightest-gray: #7D7D82;
+  --white: #fff;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: 'ObjectSans',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.contentContainer{
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.leftWrapper{
+  width: 60%;
+}
+
+.panelContainer{
+  width: 40%;
+}
+
+.equationContainer{
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 20%;
+  flex-direction: column;
+}
+
+@font-face {
+  font-family: "ObjectSans";
+  src: url("/Users/lucianoinfanti/latex/src/Fonts/ObjectSans-Regular.ttf");
+  font-weight: regular;
 }

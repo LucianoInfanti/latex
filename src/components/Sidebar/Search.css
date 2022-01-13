@@ -1,0 +1,11 @@
+.searchWrapper{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--divider-gray);
+    margin: 4px 10% 0px 10%;
+}
+
+.searchWrapper p {
+    padding-top: 24px;
+    color: #919598;
+}

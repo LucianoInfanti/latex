@@ -1,0 +1,380 @@
+[
+    {
+        "id": 0,
+        "name": "Accents and diacritics",
+        "tex": "\\vec{a}",
+        "sections": [
+            {
+                "id": 10,
+                "name": "Fractions",
+                "categorySectionItem": [
+                    {
+                        "id": 100,
+                        "tex": "\\vec{a}"
+                    },
+                    {
+                        "id": 101,
+                        "tex": "\\sigma"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "name": "Standard numerical functions",
+        "tex": "f",
+        "sections": [
+            {
+                "id": 10,
+                "name": "Fractions",
+                "categorySectionItem": [
+                    {
+                        "id": 100,
+                        "tex": "\\frac{a}{b}"
+                    },
+                    {
+                        "id": 101,
+                        "tex": "\\a/b"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Style, Color, Size and Font",
+        "tex": "\\mathfrak{A}",
+        "sections": [
+            {
+                "id": 10,
+                "name": "Fractions",
+                "categorySectionItem": [
+                    {
+                        "id": 100,
+                        "tex": "\\frac{a}{b}"
+                    },
+                    {
+                        "id": 101,
+                        "tex": "\\a/b"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Differentials",
+        "tex": "\\partial",
+        "sections": [
+            {
+                "id": 10,
+                "name": "Fractions",
+                "categorySectionItem": [
+                    {
+                        "id": 100,
+                        "tex": "\\frac{a}{b}"
+                    },
+                    {
+                        "id": 101,
+                        "tex": "\\a/b"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Letters and Unicode",
+        "tex": "\\psi",
+        "sections": [
+            {
+                "id": 10,
+                "name": "Fractions",
+                "categorySectionItem": [
+                    {
+                        "id": 100,
+                        "tex": "\\frac{a}{b}"
+                    },
+                    {
+                        "id": 101,
+                        "tex": "\\a/b"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Radicals",
+        "tex": "\\sqrt{a}",
+        "sections": [
+            {
+                "id": 10,
+                "name": "Fractions",
+                "categorySectionItem": [
+                    {
+                        "id": 100,
+                        "tex": "\\frac{a}{b}"
+                    },
+                    {
+                        "id": 101,
+                        "tex": "\\a/b"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Binary Operators",
+        "tex": "\\div",
+        "sections": [
+            {
+                "id": 10,
+                "name": "Fractions",
+                "categorySectionItem": [
+                    {
+                        "id": 100,
+                        "tex": "\\frac{a}{b}"
+                    },
+                    {
+                        "id": 101,
+                        "tex": "\\a/b"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Delimiters",
+        "tex": "()",
+        "sections": [
+            {
+                "id": 10,
+                "name": "Fractions",
+                "categorySectionItem": [
+                    {
+                        "id": 100,
+                        "tex": "\\frac{a}{b}"
+                    },
+                    {
+                        "id": 101,
+                        "tex": "\\a/b"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Logic",
+        "tex": "\\nexists",
+        "sections": [
+            {
+                "id": 10,
+                "name": "Fractions",
+                "categorySectionItem": [
+                    {
+                        "id": 100,
+                        "tex": "\\frac{a}{b}"
+                    },
+                    {
+                        "id": 101,
+                        "tex": "\\a/b"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Arrows",
+        "tex": "\\Rightarrow",
+        "sections": [
+            {
+                "id": 10,
+                "name": "Fractions",
+                "categorySectionItem": [
+                    {
+                        "id": 100,
+                        "tex": "\\frac{a}{b}"
+                    },
+                    {
+                        "id": 101,
+                        "tex": "\\a/b"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Sets",
+        "tex": "\\varnothing",
+        "sections": [
+            {
+                "id": 10,
+                "name": "Fractions",
+                "categorySectionItem": [
+                    {
+                        "id": 100,
+                        "tex": "\\frac{a}{b}"
+                    },
+                    {
+                        "id": 101,
+                        "tex": "\\a/b"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Relations",
+        "tex": "\\approx",
+        "sections": [
+            {
+                "id": 10,
+                "name": "Fractions",
+                "categorySectionItem": [
+                    {
+                        "id": 100,
+                        "tex": "\\frac{a}{b}"
+                    },
+                    {
+                        "id": 101,
+                        "tex": "\\a/b"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Geometric",
+        "tex": "\\perp",
+        "sections": [
+            {
+                "id": 10,
+                "name": "Fractions",
+                "categorySectionItem": [
+                    {
+                        "id": 100,
+                        "tex": "\\frac{a}{b}"
+                    },
+                    {
+                        "id": 101,
+                        "tex": "\\a/b"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Symbols and Punctuation",
+        "tex": "\\%",
+        "sections": [
+            {
+                "id": 10,
+                "name": "Fractions",
+                "categorySectionItem": [
+                    {
+                        "id": 100,
+                        "tex": "\\frac{a}{b}"
+                    },
+                    {
+                        "id": 101,
+                        "tex": "\\a/b"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Big Operators",
+        "tex": "\\smallint",
+        "sections": [
+            {
+                "id": 10,
+                "name": "Fractions",
+                "categorySectionItem": [
+                    {
+                        "id": 100,
+                        "tex": "\\frac{a}{b}"
+                    },
+                    {
+                        "id": 101,
+                        "tex": "\\a/b"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Larger expressions",
+        "tex": "\\Sigma",
+        "sections": [
+            {
+                "id": 10,
+                "name": "Fractions",
+                "categorySectionItem": [
+                    {
+                        "id": 100,
+                        "tex": "\\frac{a}{b}"
+                    },
+                    {
+                        "id": 101,
+                        "tex": "\\a/b"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Fractions and Binomials",
+        "tex": "\\frac{a}{b}",
+        "sections": [
+            {
+                "id": 10,
+                "name": "Fractions",
+                "categorySectionItem": [
+                    {
+                        "id": 100,
+                        "tex": "\\frac{a}{b}"
+                    },
+                    {
+                        "id": 101,
+                        "tex": "\\a/b"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Special Notation",
+        "tex": "\\bra{\\phi}",
+        "sections": [
+            {
+                "id": 10,
+                "name": "Fractions",
+                "categorySectionItem": [
+                    {
+                        "id": 100,
+                        "tex": "\\frac{a}{b}"
+                    },
+                    {
+                        "id": 101,
+                        "tex": "\\a/b"
+                    }
+                ]
+            }
+        ]
+    }
+]

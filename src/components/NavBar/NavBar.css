@@ -1,0 +1,47 @@
+.menuWrapper{
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px; 
+    height: 55px;    
+    align-items: center;
+}
+
+.menuContainer{
+    align-items: center;
+
+    display: flex;
+    padding-right: 60px; 
+}
+
+.menuContainer a {
+    margin-left: 48px;
+}
+
+div > a > img {
+    height: 20px;
+    opacity: 0.8;
+}
+
+.menuContainer button {
+    background-color: #FFD93A;
+    border: none;
+    display: flex;
+    align-items: center;
+    border-radius: 999px;
+    padding: 16px 24px 16px 24px;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: ObjectSans;
+}
+
+.menuContainer button:hover {
+    background-color: #FFE05E;
+    transition: all 0.2s ease-out;
+}
+
+.IconColor {
+    fill: black;
+    padding-left: 8px;
+    color: black;
+}

@@ -1,0 +1,24 @@
+#testbox {
+    color: white;
+    background-color: #0A0A0A;
+    font-family: Fira Code;
+    resize: none;
+    outline: none;
+    border: none;
+    width: 100%;
+    overflow: scroll;
+    overflow: hidden;
+    height: 30vh;
+    font-size: 14px;
+    text-align: center;
+}
+
+textarea::placeholder {
+    text-align: center;
+}
+
+.EquationPreviewer {
+    color: white;
+    padding-left: 120px;
+    font-size: 18px;
+}
