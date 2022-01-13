@@ -1,4 +1,4 @@
-import '/Users/lucianoinfanti/latex/src/components/Sidebar/CategoryContent.css';
+import '/Users/lucianoinfanti/latex/src/components/Sidebar/Styles/CategoryContent.css';
 
 const CategoryContent = ({ open, subCategoryTitle, onClose, children  }) => {
     return (

@@ -1,6 +1,6 @@
 #testbox {
     color: white;
-    background-color: #0A0A0A;
+    background-color: var(--darkest-gray);
     font-family: Fira Code;
     resize: none;
     outline: none;

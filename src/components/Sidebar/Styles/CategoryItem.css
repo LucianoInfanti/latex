@@ -1,6 +1,6 @@
 .categoryCardWrapper {
     display: flex;
-    border-bottom: 1px solid #202023;
+    border-bottom: 1px solid var(--divider-gray);
     display: flex;
     margin-left: 10%;
     margin-right: 10%;

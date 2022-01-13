@@ -1,4 +1,4 @@
-import '/Users/lucianoinfanti/latex/src/components/Sidebar/Search.css'
+import '/Users/lucianoinfanti/latex/src/components/Sidebar/Styles/Search.css'
 
 const Search = () => {
     return (

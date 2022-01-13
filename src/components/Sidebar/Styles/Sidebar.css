@@ -1,11 +1,10 @@
-
-
 .panelWrapper {
     background-color: var(--light-gray);
     overflow: scroll;
     position:absolute;
     height:100%;
     width: 40%;
+    border-left: 1px solid var(--divider-gray);
 
     -ms-overflow-style: none; /* for Internet Explorer, Edge */
     scrollbar-width: none; /* for Firefox */
@@ -34,3 +33,5 @@
       background-color: var(--light-gray);
   }
   
+  li {
+    list-style-type: none;  }

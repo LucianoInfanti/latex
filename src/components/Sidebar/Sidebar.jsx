@@ -1,4 +1,4 @@
-import './Sidebar.css'
+import '/Users/lucianoinfanti/latex/src/components/Sidebar/Styles/Sidebar.css'
 import 'katex/dist/katex.min.css';
 import Search from './Search';
 import { useState } from 'react';
@@ -20,7 +20,17 @@ export default function Sidebar( ) {
       </li>
       )}
     </ul>
-  )
+  );
+
+  const SubCategoryList = (
+    <ul>
+      {CategoryData.map(( index ) =>
+        <li key={ index }>
+          oi    
+        </li>
+      )}
+    </ul>
+  );
 
   return( 
     <div className="panelWrapper">
@@ -28,10 +38,8 @@ export default function Sidebar( ) {
         onClose={() => setSelectedCategory(null)}
         open={Boolean(selectedCategory)}
         subCategoryTitle={CategoryData[0].sections[0].categorySectionItem[0].tex}>
-          <p>oi</p>
+        {SubCategoryList}
       </CategoryContent>
-
-      <Search />
 
       <h2 className="sidebarTitle">Supported<br/>functions</h2>
       {CategoryList}
