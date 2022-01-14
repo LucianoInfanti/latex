@@ -2,7 +2,7 @@ import './App.css';
 import TextEditor from './components/TextEditor/TextEditor';
 import NavBar from "./components/NavBar/NavBar";
 import Sidebar from "./components/Sidebar/Sidebar";
-import CategoryItem from './components/Sidebar/CategoryItem';
+import SupportedFunctions from './components/Sidebar/SupportedFunctions';
 
 function App() {
   

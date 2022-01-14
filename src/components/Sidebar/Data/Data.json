@@ -1,12 +1,12 @@
 [
     {
         "id": 0,
-        "name": "Accents and diacritics",
+        "supportedFunctionName": "Accents and diacritics",
         "tex": "\\vec{a}",
-        "sections": [
+        "supportedFunctionGroup": [
             {
                 "id": 10,
-                "name": "Fractions",
+                "supportedFunctionGroupName": "Fractions",
                 "categorySectionItem": [
                     {
                         "id": 100,
@@ -17,17 +17,27 @@
                         "tex": "\\sigma"
                     }
                 ]
+            },
+            {
+                "id": 11,
+                "supportedFunctionGroupName": "Super Fractions",
+                "categorySectionItem": [
+                    {
+                        "id": 111,
+                        "tex": "\\vec{b}"
+                    }
+                ]
             }
         ]
     },
     {
         "id": 1,
-        "name": "Standard numerical functions",
+        "supportedFunctionName": "Standard numerical functions",
         "tex": "f",
-        "sections": [
+        "supportedFunctionGroup": [
             {
                 "id": 10,
-                "name": "Fractions",
+                "supportedFunctionGroupName": "Fractions",
                 "categorySectionItem": [
                     {
                         "id": 100,
@@ -43,12 +53,12 @@
     },
     {
         "id": 2,
-        "name": "Style, Color, Size and Font",
+        "supportedFunctionName": "Style, Color, Size and Font",
         "tex": "\\mathfrak{A}",
-        "sections": [
+        "supportedFunctionGroup": [
             {
                 "id": 10,
-                "name": "Fractions",
+                "supportedFunctionGroupName": "Fractions",
                 "categorySectionItem": [
                     {
                         "id": 100,
@@ -64,12 +74,12 @@
     },
     {
         "id": 3,
-        "name": "Differentials",
+        "supportedFunctionName": "Differentials",
         "tex": "\\partial",
-        "sections": [
+        "supportedFunctionGroup": [
             {
                 "id": 10,
-                "name": "Fractions",
+                "supportedFunctionGroupName": "Fractions",
                 "categorySectionItem": [
                     {
                         "id": 100,
@@ -85,12 +95,12 @@
     },
     {
         "id": 4,
-        "name": "Letters and Unicode",
+        "supportedFunctionName": "Letters and Unicode",
         "tex": "\\psi",
-        "sections": [
+        "supportedFunctionGroup": [
             {
                 "id": 10,
-                "name": "Fractions",
+                "supportedFunctionGroupName": "Fractions",
                 "categorySectionItem": [
                     {
                         "id": 100,
@@ -106,12 +116,12 @@
     },
     {
         "id": 5,
-        "name": "Radicals",
+        "supportedFunctionName": "Radicals",
         "tex": "\\sqrt{a}",
-        "sections": [
+        "supportedFunctionGroup": [
             {
                 "id": 10,
-                "name": "Fractions",
+                "supportedFunctionGroupName": "Fractions",
                 "categorySectionItem": [
                     {
                         "id": 100,
@@ -127,12 +137,12 @@
     },
     {
         "id": 6,
-        "name": "Binary Operators",
+        "supportedFunctionName": "Binary Operators",
         "tex": "\\div",
-        "sections": [
+        "supportedFunctionGroup": [
             {
                 "id": 10,
-                "name": "Fractions",
+                "supportedFunctionGroupName": "Fractions",
                 "categorySectionItem": [
                     {
                         "id": 100,
@@ -148,12 +158,12 @@
     },
     {
         "id": 7,
-        "name": "Delimiters",
+        "supportedFunctionName": "Delimiters",
         "tex": "()",
-        "sections": [
+        "supportedFunctionGroup": [
             {
                 "id": 10,
-                "name": "Fractions",
+                "supportedFunctionGroupName": "Fractions",
                 "categorySectionItem": [
                     {
                         "id": 100,
@@ -169,12 +179,12 @@
     },
     {
         "id": 8,
-        "name": "Logic",
+        "supportedFunctionName": "Logic",
         "tex": "\\nexists",
-        "sections": [
+        "supportedFunctionGroup": [
             {
                 "id": 10,
-                "name": "Fractions",
+                "supportedFunctionGroupName": "Fractions",
                 "categorySectionItem": [
                     {
                         "id": 100,
@@ -190,12 +200,12 @@
     },
     {
         "id": 9,
-        "name": "Arrows",
+        "supportedFunctionName": "Arrows",
         "tex": "\\Rightarrow",
-        "sections": [
+        "supportedFunctionGroup": [
             {
                 "id": 10,
-                "name": "Fractions",
+                "supportedFunctionGroupName": "Fractions",
                 "categorySectionItem": [
                     {
                         "id": 100,
@@ -211,12 +221,12 @@
     },
     {
         "id": 10,
-        "name": "Sets",
+        "supportedFunctionName": "Sets",
         "tex": "\\varnothing",
-        "sections": [
+        "supportedFunctionGroup": [
             {
                 "id": 10,
-                "name": "Fractions",
+                "supportedFunctionGroupName": "Fractions",
                 "categorySectionItem": [
                     {
                         "id": 100,
@@ -232,12 +242,12 @@
     },
     {
         "id": 11,
-        "name": "Relations",
+        "supportedFunctionName": "Relations",
         "tex": "\\approx",
-        "sections": [
+        "supportedFunctionGroup": [
             {
                 "id": 10,
-                "name": "Fractions",
+                "supportedFunctionGroupName": "Fractions",
                 "categorySectionItem": [
                     {
                         "id": 100,
@@ -253,12 +263,12 @@
     },
     {
         "id": 12,
-        "name": "Geometric",
+        "supportedFunctionName": "Geometric",
         "tex": "\\perp",
-        "sections": [
+        "supportedFunctionGroup": [
             {
                 "id": 10,
-                "name": "Fractions",
+                "supportedFunctionGroupName": "Fractions",
                 "categorySectionItem": [
                     {
                         "id": 100,
@@ -274,12 +284,12 @@
     },
     {
         "id": 13,
-        "name": "Symbols and Punctuation",
+        "supportedFunctionName": "Symbols and Punctuation",
         "tex": "\\%",
-        "sections": [
+        "supportedFunctionGroup": [
             {
                 "id": 10,
-                "name": "Fractions",
+                "supportedFunctionGroupName": "Fractions",
                 "categorySectionItem": [
                     {
                         "id": 100,
@@ -295,12 +305,12 @@
     },
     {
         "id": 14,
-        "name": "Big Operators",
+        "supportedFunctionName": "Big Operators",
         "tex": "\\smallint",
-        "sections": [
+        "supportedFunctionGroup": [
             {
                 "id": 10,
-                "name": "Fractions",
+                "supportedFunctionGroupName": "Fractions",
                 "categorySectionItem": [
                     {
                         "id": 100,
@@ -316,12 +326,12 @@
     },
     {
         "id": 15,
-        "name": "Larger expressions",
+        "supportedFunctionName": "Larger expressions",
         "tex": "\\Sigma",
-        "sections": [
+        "supportedFunctionGroup": [
             {
                 "id": 10,
-                "name": "Fractions",
+                "supportedFunctionGroupName": "Fractions",
                 "categorySectionItem": [
                     {
                         "id": 100,
@@ -337,12 +347,12 @@
     },
     {
         "id": 16,
-        "name": "Fractions and Binomials",
+        "supportedFunctionName": "Fractions and Binomials",
         "tex": "\\frac{a}{b}",
-        "sections": [
+        "supportedFunctionGroup": [
             {
                 "id": 10,
-                "name": "Fractions",
+                "supportedFunctionGroupName": "Fractions",
                 "categorySectionItem": [
                     {
                         "id": 100,
@@ -358,12 +368,12 @@
     },
     {
         "id": 17,
-        "name": "Special Notation",
+        "supportedFunctionName": "Special Notation",
         "tex": "\\bra{\\phi}",
-        "sections": [
+        "supportedFunctionGroup": [
             {
                 "id": 10,
-                "name": "Fractions",
+                "supportedFunctionGroupName": "Fractions",
                 "categorySectionItem": [
                     {
                         "id": 100,

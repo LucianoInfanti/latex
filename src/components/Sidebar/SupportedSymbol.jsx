@@ -1,7 +1,7 @@
 import 'katex/dist/katex.min.css';
 import TeX from '@matejmazur/react-katex';
 
-const SectionContent = ({item }) => {
+const SupportedSymbol = ({item }) => {
 	return (
 		<div className="subCategoryContentWrapper">
 			<TeX className="TeX" block>{ item.tex }</TeX>
@@ -10,4 +10,4 @@ const SectionContent = ({item }) => {
 	);
 }
  
-export default SectionContent;
+export default SupportedSymbol;

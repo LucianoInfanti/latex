@@ -1,63 +1,58 @@
 import '/Users/lucianoinfanti/latex/src/components/Sidebar/Styles/Sidebar.css'
 import 'katex/dist/katex.min.css';
 import { useState } from 'react';
-import CategoryItem from './CategoryItem';
-import CategoryContent from './CategoryContent.jsx';
-import CategoryData from '/Users/lucianoinfanti/latex/src/components/Sidebar/Data/Category.json';
-import SectionContent from './SectionContent';
+import SupportedFunctions from '/Users/lucianoinfanti/latex/src/components/Sidebar/SupportedFunctions.jsx';
+import SelectedFunction from './SelectedFunction.jsx';
+import Data from '/Users/lucianoinfanti/latex/src/components/Sidebar/Data/Data.json';
+import SupportedSymbol from './SupportedSymbol';
+import SupportedFunctionGroup from '/Users/lucianoinfanti/latex/src/components/Sidebar/SupportedFunctionGroup.jsx';
 
 export default function Sidebar( ) {
   const [selectedCategory, setSelectedCategory] = useState(null);
-  const [value, setValue] = useState('');
-
-  const addLatexArgument = (latexArgument) => {
-        setValue(value + '\\' + latexArgument);
-    }
   
-  function Teste(params) {
-    
-  }
-
-  const CategoryList = (
+  const SupportedFunctionsList = (
     <ul>
-      {CategoryData.map(( item , index ) =>
+      {Data.map(( item , index ) =>
       <li key={ index }>
-        <button className="categoryCardWrapper"
+        <button className="SupportedFunctionsWrapper"
           onClick={() => setSelectedCategory(item)}>
-          <CategoryItem item={ item }/>
+          <SupportedFunctions item={ item }/>
         </button>
       </li>
       )}
     </ul>
   );
 
-  const SubCategoryList = (
+  const SymbolsList = (
     <ul>
-      <h4>{CategoryData[0].sections[0].name}</h4>
-      {CategoryData.map(( item, index ) =>
-        <button className="categoryCardWrapper"
-        onClick={() => addLatexArgument({ item })}>
-        <SectionContent item={ item }
+      <h4>{Data[0].supportedFunctionGroup[0].supportedFunctionGroupName}</h4>
+      {Data.map(( item ) =>
+        <button className="SupportedFunctionsWrapper">
+        <SupportedSymbol item={ item }
         onClose={() => setSelectedCategory(null)}/>
       </button>
       )}
     </ul>
   );
 
+  const SupportedFunctionGroupList = (
+    <ul>
+      <SupportedFunctionGroup>
+        <SymbolsList/>
+      </SupportedFunctionGroup>
+    </ul>
+  )
+
   return( 
     <div className="panelWrapper">
-      <CategoryContent 
+      <SelectedFunction 
         onClose={() => setSelectedCategory(null)}
-        open={Boolean(selectedCategory)}
-        subCategoryTitle={CategoryData[0].sections[0].categorySectionItem[0].tex}>
-        {SubCategoryList}
-      </CategoryContent>
+        open={Boolean(selectedCategory)}>
+        {SymbolsList}
+      </SelectedFunction>
 
       <h2 className="sidebarTitle">Supported<br/>functions</h2>
-      {CategoryList}
+      {SupportedFunctionsList}
     </div>
   );
 };
-
-// {showMore && <p>{CategoryData[index].tex}</p>}
-// <CategoryList  onClick={handleSelectedCategory(CategoryList({item})), handleShowMoreClick(index)}/>
