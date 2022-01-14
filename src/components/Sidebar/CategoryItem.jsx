@@ -3,12 +3,13 @@ import 'katex/dist/katex.min.css';
 import TeX from '@matejmazur/react-katex';
 import ChevronIcon from '/Users/lucianoinfanti/latex/src/images/chevron-down.svg';
 
-export default function CategoryItem ({ item }) {
+export default function CategoryItem ({ open, item, onClose }) {
   return(
-    <div className="mainContentWrapper">
+    <button className="mainContentWrapper" aria-hidden={open ? "false" : "true"}
+    onClick={() => {onClose();}}>
       <TeX className="TeX, categoryIcon" block>{ item.tex }</TeX>
       <p>{ item.name }</p> 
       <img src={ChevronIcon}/>
-    </div>  
+    </button>  
   )
 };

@@ -1,10 +1,11 @@
 import 'katex/dist/katex.min.css';
 import TeX from '@matejmazur/react-katex';
 
-const SectionContent = ({sectionTitle , item }) => {
+const SectionContent = ({item }) => {
 	return (
 		<div className="subCategoryContentWrapper">
-		<h4>{ sectionTitle }</h4>
+			<TeX className="TeX" block>{ item.tex }</TeX>
+			<p>{ item.tex }</p>
 		</div>
 	);
 }

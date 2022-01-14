@@ -1,13 +1,22 @@
 import '/Users/lucianoinfanti/latex/src/components/Sidebar/Styles/Sidebar.css'
 import 'katex/dist/katex.min.css';
-import Search from './Search';
 import { useState } from 'react';
 import CategoryItem from './CategoryItem';
 import CategoryContent from './CategoryContent.jsx';
 import CategoryData from '/Users/lucianoinfanti/latex/src/components/Sidebar/Data/Category.json';
+import SectionContent from './SectionContent';
 
 export default function Sidebar( ) {
   const [selectedCategory, setSelectedCategory] = useState(null);
+  const [value, setValue] = useState('');
+
+  const addLatexArgument = (latexArgument) => {
+        setValue(value + '\\' + latexArgument);
+    }
+  
+  function Teste(params) {
+    
+  }
 
   const CategoryList = (
     <ul>
@@ -24,10 +33,13 @@ export default function Sidebar( ) {
 
   const SubCategoryList = (
     <ul>
-      {CategoryData.map(( index ) =>
-        <li key={ index }>
-          oi    
-        </li>
+      <h4>{CategoryData[0].sections[0].name}</h4>
+      {CategoryData.map(( item, index ) =>
+        <button className="categoryCardWrapper"
+        onClick={() => addLatexArgument({ item })}>
+        <SectionContent item={ item }
+        onClose={() => setSelectedCategory(null)}/>
+      </button>
       )}
     </ul>
   );
